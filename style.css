@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', Courier, monospace;
+    background-color: #6C8784;
+
+    height: 100vh;
+}
+
+.product-img-logo img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.product-img img {
+    position: absolute;
+    bottom: 25px;
+    right: 15px;
+    transform: rotate(-15deg);
+
+    width: 18em;
+}
+
+img {
+    width: 8em;
+    display: block;
+}
+
+.container {
+    padding: 1em;
+    background-color: #E7E7E7;
+    border-radius: 15px;
+}
+
+.section-1 {
+    border-radius: 15px;
+    height: 30vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EB6361;
+}
+
+.section-2 {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    padding: .7em;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.title span {
+    background-color: rgb(8, 234, 64);
+    padding: .4em;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-left: .5em;
+}
+
+.shoes {
+    padding: 0;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+
+.rating {
+    margin-bottom: .7em;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+}
+
+.size li {
+    padding: .5em;
+    margin-right: 1em;
+}
+
+.size li:nth-child(2) {
+    background-color: #EB6361;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.price {
+    margin: 1em;
+    background-color: #EB6361;
+    padding: .5em;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
